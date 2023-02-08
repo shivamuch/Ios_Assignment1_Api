@@ -14,6 +14,13 @@ class APIDataFetch{
         return URLSession(configuration: config)
     }()
     
-  
+    public func fetchData(url: String){
+        guard
+            let url = URL(string: url)
+        else{
+            preconditionFailure("was not able to convert string to url: \(url)")
+        }
+        
+        
 }
 
