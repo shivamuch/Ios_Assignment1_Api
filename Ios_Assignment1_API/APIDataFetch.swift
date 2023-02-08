@@ -21,6 +21,25 @@ class APIDataFetch{
             preconditionFailure("was not able to convert string to url: \(url)")
         }
         
-        
+        let request = URLRequest(url: url)
+        let task = APIDataFetch.session.dataTask(with: request) {
+            data, response, error in
+            
+            if let data = data {
+                do{
+                    let jsonData = try JSONSerialization.jsonObject(with: data)
+                    
+                    print(jsonData)
+                }catch let err{
+                    print("\(err)")
+                }
+            } else if let error = error {
+                print("error with data task, fetchDir: \(error)")
+            } else {
+                print("something went wrong when fetching the directory: \(String(describing: response))")
+            }
+        }
+        task.resume()
+    }
 }
 
