@@ -23,9 +23,9 @@
 		409D548929945E440061303C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		409D548B299464550061303C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		409D548D299464A30061303C /* APIDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataFetch.swift; sourceTree = "<group>"; };
-		409D548F2994677E0061303C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../Desktop/iOSAPIDataFetch/iOSAPI/Info.plist; sourceTree = "<group>"; };
 		409D549229947F700061303C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		409D549529947F830061303C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		409D54972994859E0061303C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				409D549329947F700061303C /* Main.storyboard */,
 				409D5479299453EF0061303C /* Assets.xcassets */,
 				409D549629947F830061303C /* LaunchScreen.storyboard */,
-				409D548F2994677E0061303C /* Info.plist */,
+				409D54972994859E0061303C /* Info.plist */,
 			);
 			path = Ios_Assignment1_API;
 			sourceTree = "<group>";
@@ -295,6 +295,7 @@
 				DEVELOPMENT_TEAM = 62SG5UD44R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ios_Assignment1_API/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -326,6 +327,7 @@
 				DEVELOPMENT_TEAM = 62SG5UD44R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ios_Assignment1_API/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
